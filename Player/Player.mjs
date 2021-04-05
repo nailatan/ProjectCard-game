@@ -13,6 +13,7 @@ class player {
     printHand() { this._hand.printHand();}
     someCardVisible() {return this._hand.someCardVisible()}
     isTheBank() { return this._isTheBank;}
+    setIsTheBank(value) { this._isTheBank = value;}
 }
 export default player;
 // export {addCard} from Hand;clear

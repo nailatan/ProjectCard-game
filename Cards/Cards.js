@@ -26,10 +26,10 @@ class Card {
         return this._value;
     }
     print()   {
-        console.log(this.getCardName());
+        console.log(`   - ${this.getCardName()}`);
     }
     printWithWorth()   {
-        console.log(`${this.getCardName()} ( ${this.getValue()} points)`);
+        console.log(`  - ${this.getCardName()} ( ${this.getValue()} points)`);
     }    
     getImage() { return this._image;}
 }
