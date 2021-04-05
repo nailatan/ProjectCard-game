@@ -1,0 +1,12 @@
+{
+  "name": "cards",
+  "version": "0.0.1",
+  "description": "Cards",
+  "type": "module",
+  "main": "Cards.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natalia",
+  "license": "ISC"
+}

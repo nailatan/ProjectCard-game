@@ -1,1 +1,1 @@
-# ProjectCard-game
+node ./play.mjs
