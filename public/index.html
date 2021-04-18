@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <title>Siete y medio App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="module" src="/dist/index.js"></script>
+    <!-- <h1>Juego del 7 y medio</h1> -->
+    <div id="manager">
+      <form>
+        <input type="button" value="Comenzar" name="Start" />
+        <input type="button" value="Añadir Jugador" name="newPlayer" />
+      </form>
+      <div id="infoManager">
+        <table>
+          <thead>
+            <tr>
+              <td>Nombre</td>
+              <td>Banca?</td>
+            </tr>
+          </thead>
+          <tbody id="bodyInfo">
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="PlayerInfo">
+      <form id="infoPlayer">
+        <div><label for="nombre">Nombre</label><input type="text" id="nombre" size="30px" /></div>
+        <div><label for="Banca">Juega como banca??</label><input type="checkbox" id="Banca" /></div>  
+        <input type="submit" value="Añadir" name="AddPlayer" />      
+      </form>
+    </div>
+    <div class="tapete">
+    </div>
+  </body>
+</html>

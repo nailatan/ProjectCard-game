@@ -15,6 +15,7 @@ do {
   let playerInfo = askForPlayer();
   players.push(new player(playerInfo.name, playerInfo.isBank));
 } while (ask("Otro Jugador?") === "S");
+
 let todook = validateInitialPlayers(players);
 if (todook != "") {
   console.log(todook);

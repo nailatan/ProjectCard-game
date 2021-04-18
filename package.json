@@ -1,5 +1,19 @@
 {
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*.js\""
+  },
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "canvas-confetti": "^1.2.0",
+    "Player": "file:./Player",
+    "readline-sync": "^1.4.10",
+    "SieteMedio": "file:./SieteMedio"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "snowpack": "^3.0.1"
   }
 }
